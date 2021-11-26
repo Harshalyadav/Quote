@@ -1,0 +1,16 @@
+1> npm init --yes 
+create npm package
+in package.json file change main : "index.js" to "server.js"
+and add above main "type":"module" -> we can use js ecma 6 i.e import.... 
+
+2>npm  i graphql@15.7.2 apollo-server@3.5.0 apollo-server-core@3.5.0 
+install graphql and apollo server and inable playground
+
+3>resolver ->brain calculate
+4>Create instance ->server
+5>Port
+6>Run using nodemon:=> nodemon filename (server)
+7>create own playground :-> by add pligins:[ApolloServerPluginLandingPageGraphQLPlayground()] in server .
+
+playground : 
+
